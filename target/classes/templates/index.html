@@ -1,0 +1,229 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Moderni Diena</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+
+<div id="button-up">
+    <a href="#navigation"><img src="/images/arrow-up-.svg" style="width: 80%"></a>
+</div>
+<div class="header pagemargins">
+    <div class="row box">
+        <div>
+            <div class="logo">
+                <a href="/"><img th:src="@{/images/md_logo.svg}"/></a>
+            </div>
+            <p th:text="${userwelcome}"></p>
+        </div>
+        <div class="content">
+            <div class="title">
+                <h1>Moderni Diena</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pagemargins">
+    <ul class="topnav" id="navigation">
+        <li th:each="kategorija : ${categoryList}"><a th:href="@{/(category=(${kategorija.getName()}))}"
+                                                      th:text="${kategorija.getName()}"></a></li>
+    </ul>
+    <div th:if="${iscategory} == true" class="category-header">
+        <div>
+            <h2 th:text="${categoryName}"></h2>
+        </div>
+    </div>
+</div>
+<div class="pagemargins">
+    <div class="row">
+        <div class="row-header">
+            <h2>Karštos Naujienos</h2>
+        </div>
+        <div th:each="news : ${newsListHot}" class="col-4">
+            <div class="news-hot">
+                <div class="newsfooter">
+                    <div class="newsfooterauthor">
+                        <label th:text="${news.getAuthor()}"></label>
+                    </div>
+                    <div class="newsfooterdate">
+                        <label th:text="${news.getCreated_date()}"></label>
+                    </div>
+                </div>
+                <hr/>
+                <div class="newsimage">
+                    <a th:href="@{/straipsnis(articleid = ${news.getId()})}"><img
+                            th:src="@{/uploads/thumbnails/{path}(path = ${news.getThumbnail()})}"></a>
+                    <div class="topleft">
+                        <a th:href="@{/(category=(${news.getCategory_name()}))}"><label
+                                th:text="${news.getCategory_name()}"></label></a>
+                    </div>
+                </div>
+                <h2 th:text="${news.getTitle()}"></h2>
+                <div class="hr"></div>
+                <p th:text="${news.getPunchline()}"></p>
+                <div class="link">
+                    <a th:href="@{/straipsnis(articleid = ${news.getId()})}">Skaityti toliau</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row-header">
+            <h2>Populiarios Naujienos</h2>
+        </div>
+        <div th:each="news : ${newsListPopular}" class="col-4">
+            <div class="news-hot">
+                <div class="newsfooter">
+                    <div class="newsfooterauthor">
+                        <label th:text="${news.getAuthor()}"></label>
+                    </div>
+                    <div class="newsfooterdate">
+                        <label th:text="${news.getCreated_date()}"></label>
+                    </div>
+                </div>
+                <hr/>
+                <div class="newsimage">
+                    <a th:href="@{/straipsnis(articleid = ${news.getId()})}"><img
+                            th:src="@{/uploads/thumbnails/{path}(path = ${news.getThumbnail()})}"></a>
+                    <div class="topleft">
+                        <a th:href="@{/(category=(${news.getCategory_name()}))}"><label
+                                th:text="${news.getCategory_name()}"></label></a>
+                    </div>
+                </div>
+                <h2 th:text="${news.getTitle()}"></h2>
+                <div class="hr"></div>
+                <p th:text="${news.getPunchline()}"></p>
+                <div class="link">
+                    <a th:href="@{/straipsnis(articleid = ${news.getId()})}">Skaityti toliau</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row-header">
+            <h2>Naujausios Naujienos</h2>
+        </div>
+        <div class="row">
+            <div th:each="news : ${newsListNew}" class="col-4">
+                <div class="news-hot">
+                    <div class="newsfooter">
+                        <div class="newsfooterauthor">
+                            <label th:text="${news.getAuthor()}"></label>
+                        </div>
+                        <div class="newsfooterdate">
+                            <label th:text="${news.getCreated_date()}"></label>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="newsimage">
+                        <a th:href="@{/straipsnis(articleid = ${news.getId()})}"><img
+                                th:src="@{/uploads/thumbnails/{path}(path = ${news.getThumbnail()})}"></a>
+                        <div class="topleft">
+                            <a th:href="@{/(category=(${news.getCategory_name()}))}"><label
+                                    th:text="${news.getCategory_name()}"></label></a>
+                        </div>
+                    </div>
+                    <h2 th:text="${news.getTitle()}"></h2>
+                    <div class="hr"></div>
+                    <p th:text="${news.getPunchline()}"></p>
+                    <div class="link">
+                        <a th:href="@{/straipsnis(articleid = ${news.getId()})}">Skaityti toliau</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" th:each="newsList : ${complicated}">
+        <div class="row-half" th:each="naujiena : ${newsList}">
+            <div th:each="news : ${naujiena}" class="col-6">
+                <div class="news">
+                    <div class="newsimage">
+                        <a th:href="@{/straipsnis(articleid = ${news.getId()})}"><img
+                                th:src="@{/uploads/thumbnails/{path}(path = ${news.getThumbnail()})}"></a>
+                        <div class="topleft">
+                            <a th:href="@{/(category=(${news.getCategory_name()}))}"><label
+                                    th:text="${news.getCategory_name()}"></label></a>
+                        </div>
+                    </div>
+                    <h2 th:text="${news.getTitle()}"></h2>
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div th:if="${iscategory} == false" th:each="catRow : ${newsByCategory}" class="row">
+        <div class="row-header">
+            <h2 th:text="${catRow.getKategorija().getName()}"></h2>
+        </div>
+        <div class="row">
+            <div th:each="bigNews : ${catRow.getBignews()}" class="col-4">
+                <div class="news-hot">
+                    <div class="newsfooter">
+                        <div class="newsfooterauthor">
+                            <label th:text="${bigNews.getAuthor()}"></label>
+                        </div>
+                        <div class="newsfooterdate">
+                            <label th:text="${bigNews.getCreated_date()}"></label>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="newsimage">
+                        <a th:href="@{/straipsnis(articleid = ${bigNews.getId()})}"><img
+                                th:src="@{/uploads/thumbnails/{path}(path = ${bigNews.getThumbnail()})}"></a>
+                        <div class="topleft">
+                            <a th:href="@{/(category=(${bigNews.getCategory_name()}))}"><label
+                                    th:text="${bigNews.getCategory_name()}"></label></a>
+                        </div>
+                    </div>
+                    <h2 th:text="${bigNews.getTitle()}"></h2>
+                    <div class="hr"></div>
+                    <p th:text="${bigNews.getPunchline()}"></p>
+                    <div class="link">
+                        <a th:href="@{/straipsnis(articleid = ${bigNews.getId()})}">Skaityti toliau</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" th:each="naujiena : ${catRow.getSmallnews()}">
+            <div class="row-half" th:each="wow : ${naujiena}">
+            <div th:each="news : ${wow}" class="col-6">
+                <div class="news">
+                    <div class="newsimage">
+                        <a th:href="@{/straipsnis(articleid = ${news.getId()})}"><img
+                                th:src="@{/uploads/thumbnails/{path}(path = ${news.getThumbnail()})}"></a>
+                        <div class="topleft">
+                            <a th:href="@{/(category=(${news.getCategory_name()}))}"><label
+                                    th:text="${news.getCategory_name()}"></label></a>
+                        </div>
+                    </div>
+                    <h2 th:text="${news.getTitle()}"></h2>
+                    <div class="hr"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pagemargins">
+    <div class="pagefooter">
+        <h1>Moderni Diena</h1>
+        <div class="row">
+            <div class="col-3">
+                <label>UAB Akcinė bendrovė</label>
+            </div>
+            <div class="col-3">
+                <label>Miestas, Gatvė g. 1</label>
+            </div>
+            <div class="col-3">
+                <label>Simanavičius Andrius</label>
+            </div>
+            <div class="col-3">
+                <label>Visos teisės saugomos</label>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

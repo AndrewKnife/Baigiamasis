@@ -1,0 +1,52 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Moderni Diena</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+
+
+<div class="pagemargins articletop">
+    <div class="row" style="width: 100%">
+        <div class="col-3">
+            <div class="articlelogo">
+                <a href="/"><img th:src="@{/images/md_logo_tiny.svg}"/></a>
+            </div>
+        </div>
+        <div class="col-9">
+            <h1>Moderni Diena</h1>
+        </div>
+    </div>
+</div>
+<div class="pagemargins">
+    <ul class="topnav">
+        <li th:each="kategorija : ${categoryList}"><a th:href="@{/(category=(${kategorija.getName()}))}" th:text="${kategorija.getName()}"></a></li>
+    </ul>
+</div>
+<div id="button-up">
+    <a href="#navigation"><img src="/images/arrow-up-.svg" style="width: 80%"></a>
+</div>
+<div class="article">
+    <div class="articleheader">
+        <div class="articleauthor">
+            <label th:text="${newsarticle.getAuthor()}"></label>
+        </div>
+        <div class="articledate">
+            <label th:text="${newsarticle.getCreated_date()}"></label>
+        </div>
+        <div class="hr"></div>
+    </div>
+    <h1 th:text="${newsarticle.getTitle()}"></h1>
+    <div class="hr"></div>
+    <p th:text="${newsarticle.getPunchline()}"></p>
+    <div class="articleimage">
+        <img th:src="@{/uploads/thumbnails/{path}(path = ${newsarticle.getThumbnail()})}"/>
+    </div>
+    <div class="info" th:utext="${newsarticle.getAlltext()}">
+
+    </div>
+</div>
+</body>
+</html>
