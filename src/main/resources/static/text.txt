@@ -1,0 +1,335 @@
+INSERT INTO `news` (id, title, author, category_name, thumbnail, tags, punchline, positions, created_date, alltext, hot, view_count)
+VALUES (NULL, 'Nepalo traukos objektas - gyva hinduizmo deivė Kumari',
+              'Eglė Kuzmaitė',
+              'Kultūra',
+              'nepalas-6372.jpg',
+              'Kultūra,Hinduizmas',
+              'Kone dangų remiantys snieguoti kalnai, miškais apaugę uolynai ir džiunglės, žmonių tirštas miestas ir tyrlaukiai, malonūs važiuoti plentai ir lyg Marso paviršius duobėtos gatvės... Nepale nėra tik vėjų pustomos dykumos ir bangų skalaujamo pajūrio.',
+              '',
+              '2018-04-09 12:31:58.0',
+              '<h2>Elektra pagal grafiką</h2><p> Skristi į Nepalą verta jau vien dėl' ||
+              ' vaizdo,kuris atsiveria leidžiantis Katmandu.Šalies sostinėįsikūrusi 1, 3 km aukštyje todėl sniegu užklotos'
+              ||
+              ' Himalajų smailės – kaip niekada arti.O štai Tribhuvano oro uostas visiškai neįspūdingas.Laimei, netenka '
+              ||
+              'užtrukti:užpildai imigracijos kortelę, sumoki maždaug 64 litus už 15 dienų, padovanoji savo nuotrauką ir gauni'
+              ||
+              ' lipduką į pasą.Vienam ponui paduodi pinigus, kitas įklijuoja lipduką, trečias jame kažką pakeverzoja.Aš pastarąjį '
+              ||
+              'pražiopsojau ir viską surašiau pati.Niekas ir netikrino.</p><blockquote><p>Tai – gyva hinduizmo deivė.Ja išrinkta'
+              ||
+              ' maža mergaitė šias pareigas eina tol, kol pradeda bręsti. Kumari negalima ne tik eiti į mokyklą ar žaisti kieme,'
+              ||
+              ' bet ir vaikščioti žeme, liesti draugų – kad nesusiteptų. Vietiniai kalba, kad šios mergaitės, kai nebetenka'
+              ||
+              ' pareigų, nebeturi jokių šansų ištekėti – kas norėtų imti į žmonas tokią lepūnę?</p></blockquote>' ||
+              '<div class="inlineimage"><img src="/uploads/articlephotos/fot-456.jpg"/><div class="rightbottom"><p>Fotografas</p>'
+              ||
+              '</div></div><p>Apytuščiame oro uoste darbuotojams kompaniją palaikė tik mūsų reiso keleiviai ir ant bagažo'
+              ||
+              ' juostos besisukančios išsipūtusios kuprinės, bet su drauge išėjusios į lauką patekome į tirštą aplinką.Mus'
+              ||
+              ' iškart užgriuvo gal 15 taksistų – siūlė brangias ir dar brangesnes paslaugas, taip pat viešbučius,' ||
+              ' kitas paslaugas.Nesame kvailės – prieš kelionę išsistudijavome turizmo gidą „Lonely Planet“:taksi kainuoja'
+              ||
+              ' iki 4 litų.Nors ir suapvalinome šią sumą į didžiąją pusę, sukėlėme juoko bangą – visi vairuotojai nurodė'
+              ||
+              ' keturiskart didesnę. Nusiderėjome iki 15 litų už kelionę iki Tamelio – turistų mėgstamo rajono, kuriame'
+              ||
+              ' gausu viešbučių, hostelių, kavinių, restoranų,parduotuvių ir turgelių.</p>',
+              0, 38), (NULL,
+  'Nauja rankinių kolekcija – moderniai miesto moteriai',
+  'moteris',
+  'Mada',
+  'rankine-01.jpg',
+  'Mada',
+  'Dizainerės Erikos Paulauskės kolekcijos veidu jau antrą kartą tapo modelis Julija Steponavičiūtė.',
+  '',
+  '2018-04-09 12:01:06.0', '<p>taip</p> ', 1, 1),
+  (NULL,
+    'Naujausioje kolekcijoje – megztiniai, kardiganai ir džemperiai',
+    'Aš esu autorius',
+    'Mada',
+    'megztinis-01.jpg',
+    'Mada',
+    '„Robi Agnes” pavasario / vasaros kolekcija:būk laisva, būk pašėlusi, būk laiminga!',
+    '',
+    '2018-04-09 12:00:30.0', '<p>Paragrafas</p >', 1, 1),
+  (NULL, 'Klasikinės stiliaus taisyklės, kurių nevalia sulaužyti',
+         'moteris.lt',
+         'Mada',
+         'taisykle-01.jpg'
+    , 'Mada',
+         'Verta sekti naujausias tendencijas,tačiau ne mažiau svarbu yra išmanyti klasikines, laiko patikrintas ',
+         '',
+         '2018-04-09 11:59:10.0', '<p>tyngėjau rašyti</p>',
+         ' 0 ', 10),
+  (NULL, 'Parodontozė:kokie požymiai išduoda šią ligą ir kaip jai užkirsti kelią',
+         'moteris.lt',
+         'Sveikata',
+         'dantis-01.jpg',
+         'Sveikata',
+         'Pasaulio sveikatos organizacijos duomenimis, sunkios periodonto ligos diagnozuojamos kone penktadaliui vidutinio amžiaus pasaulio gyventojų.',
+         '',
+         '2018-04-09 11:50:18.0',
+         '<p> Parodontozė, arba kitaip – periodontitas yra viena pagrindinių dantų praradimo priežasčių.Nors galvoti apie jos pasekmes tikrai nesinori, vis tik ši liga neretai apipinama ir ne visai pagrįstais įsitikinimais.Tad su </p>',
+         0, 6),
+  (NULL, 'Kraujo tyrimų galia:galima įtarti daugybę ligų',
+         'Virginija Spurytė',
+         'Sveikata',
+         'kraujas - 01.jpg',
+         'Kraujas, Sveikata',
+         'Įsitikinti, jog sveikata yra puiki, nustatyti pirmuosius ligos signalus ir taip užkirsti jiems kelią, žinoti'
+         ||
+         ' būdus, kaip pagerinti savo savijautą – visa tai galima pasiekti atlikus kraujo tyrimus.',
+         '',
+         '2018-04-09 11:49:31.0',
+         '<p>Šiuolaikinėms technologijoms sparčiai žengiant į priekį, </p><h1>Rodo įtarimus dėl daugybės ligų</h1><p> Laboratorijų tinklo'
+         ||
+         ' „ Medicina Practica“ vadovo Svajūno Barakausko teigimu, Lietuvoje populiariausi ir dažniausiai atliekami yra '
+         ||
+         'apie 300 kraujo tyrimų.„Prieš dešimt metų jų buvo koks 60. Akivaizdu, jog labai išaugo galimybės ištirti žmogaus '
+         ||
+         'kraują, sužinoti jo biochemiją, taip greičiau nustatyti nuokrypius ir pasiekti gerą būklę“, -teigė pašnekovas.</p>',
+         1, 0),
+  (NULL, 'Vitamino D svarba – kokiu amžiaus periodu jį reikia vartoti?',
+         'Žurnalas Moteris',
+         'Sveikata',
+         'vitaminas-01.jpg',
+         'Sveikata,Vitaminai,D',
+         'Dar neseniai vitaminas D buvo tik vienas iš daugelio, bet pastarąjį dešimtmetį jis tapo toks populiarus, kad '
+         ||
+         'net rekomenduojama jo papildomai gerti kasdien nuo kūdikystės iki mirties.Ar nepervertiname šio vitamino svarbos?',
+         '',
+         '2018-04-09 11:45:05.0',
+         '<p>Vitamino D kiekį kraujyje nutariau pasitikrinti visai atsitiktinai.Tada dariau žurnalistinį tyrimą' ||
+         ' apie magnį, ir kolegė netikėtai prasitarė, kad taip pat neseniai atliko profilaktinius kraujo tyrimus,' ||
+         ' tik ją labiau domino vitaminas D.Sužinojusi, kad bendradarbei nustatytas kritinis šio vitamino deficitas,' ||
+         ' iš smalsumo nutariau pasitikrinti ir aš.</p><h1>Nepadėjo net Ispanija</h1> < p > Jokių išskirtinių simptomų'
+         ||
+         ' nejaučiau.Na, taip, nagai augo lėtai ir buvo gana trapūs, retkarčiais kamavo nuovargis, apatija, ' ||
+         'bet to priežastimi labiau buvau linkusi laikyti persidirbimą ir netinkamą nagų laką.</p>',
+         0, 12),
+  (NULL, '8 būdai naujai pritaikyti jau pabodusius drabužius',
+         'Vida Press',
+         'Mada',
+         'drabuziai - 01.jpg',
+         'Mada,8',
+         'Tam, kad atrodytumėte vis kitaip, visai nebūtina spintos kas sezoną užpildyti visiškai naujais drabužiais.' ||
+         'Užteks jau turimus rūbus derinti kitaip, nei įprasta.Neabejokite, rezultatas jus maloniai nustebins!',
+         '',
+         '2018-04-08 09:17:43.0',
+         '<p>Vienas ryškiausių mados bruožų yra nuolatinė kaita, tad nieko keisto, kad ką tik įsigytas drabužis' ||
+         ' gali greitai tapti nebeįdomus ir netgi nemadingas.Vis dėlto,jei esate viena tų moterų, kurios vertina' ||
+         ' klasikinio stiliaus, ilgaamžius daiktus, greičiausiai su tokia problema susiduriate rečiau nei kas sezoną.Be'
+         ||
+         ' to, užtenka į tokius laiko patikrintus modelius pažiūrėti kitu kampu ir jie gali pasirodyti lyg nauji.</p>'
+         ||
+         '<p>Netikite? Štai aštuoni klasikiniai drabužiai ir stilingi jų derinimo būdai, kurie, tikėtina, įkvėps jūsų'
+         ||
+         ' pačios garderobą.</p><h1>TRUMPA SUKNELĖ</h1><p>Paprasta trumpa suknelė atgis iš naujo, ' ||
+         'kai ją užsivilksite ant megztuko ir plačių kiulotų.Suknelės ir kelnių derinys šiuo metu labai madingas!</p>'
+         ||
+         '<img th:src="/uploads/articlephotos/drabuziai-01-01.jpg"/>',
+         1, 13),
+  (NULL, 'Lietuvės atostogas Egipte apkartino viešbutis:taip blogai dar nėra buvę',
+         'Dalia Vaitkutė',
+         'Kultūra',
+         'egiptas - 01.jpg',
+         'Egiptas,Kultūra',
+         'Susigundžiusi pavasario atostogas praleisti Egipte, vilnietė buvo nemaloniai nustebinta.Poilsis egzotika ' ||
+         'alsuojančioje šalyje keliautojai apkarto.',
+         '',
+         '2018-04-08 08:49:56.0',
+         '<p> Viešbučio būkle, netvarka ir nešvara jame pasibaisėjusi vilnietė (redakcijai vardas ir pavardė žinomi)' ||
+         ' nusprendė netylėti ir tautiečius perspėti apie skirtumus tarp parduodamų kelionių nuotraukų bei aprašymų ' ||
+         'ir vaizdo realybėje.Moterį labiausiai papiktino kelionių organizatorių abejingumas.„Atvykome į Hurgada.Taip ' ||
+         'blogai dar nėra buvę.Viešbutis „Coral Beach Resort 4 * “ žiauriai prastas, kambariai tragiški, o blogiausia' ||
+         ' tai kad neturiu kuo maitinti vaikų.„Tez Tour“ atstovai siuntinėja vieni pas kitus ir niekuo nepadeda!“ – ' ||
+         'piktinosi moteris.  </p>',
+         1, 302),
+  (NULL, 'Į Turkiją plūsta rekordinis skaičius lietuvių',
+         'Andrius Simanavičius',
+         'Kultūra',
+         'turkija-01.jpg',
+         'Turkija',
+         'Turkijos kurortai lietuviams ne tik kad nepabodo – į šią šalį atvykstančių poilsiautojų srautai didėja sulig' ||
+         ' kiekvienais metais.O 2018-ieji – rekordiniai apskritai.',
+         '',
+         '2018-04-08 08:49:52.0',
+         '<p>Poilsiautojai gali rinktis iš paklausiausių, labiausiai išvystytų Turkijos kurortų:Antalijos, Bodrumo,' ||
+         ' Marmario, o nuo šių metų – ir Izmiro.Turkijoje vasara ilga, sezonas joje tęsiasi nuo kovo 31 d.iki lapkričio' ||
+         ' mėnesio, rašoma pranešime spaudai.</p>',
+         1, 42),
+  (NULL,
+    'Į užsienio kurortus lietuviai keliauja ne tik poilsiauti,bet ir užsidirbti',
+    'Moteris.lt',
+    'Kultūra',
+    'kurortas-01.jpg',
+    'Kultūra',
+    'Įsibėgėjant šiltajam sezonui,kelionių agentūrose išauga paklausa kelionėms į užsienio kurortus, kuriuose' ||
+    ' keliautojai domisi ne tik poilsio,bet ir darbo sąlygomis.',
+    '',
+    '2018-04-08 08:46:01.0',
+    '<blockquote><p> Pastebime,kad lietuvių šeimos vis dažniau susigundo galimybe ilgesnį laiką išvykti ilsėtis į ' ||
+    'šiltuosius kraštus,kuriuose vaikai ilsisi, o suaugusieji tęsia darbą nuotoliniu būdu“, – apie populiarėjantį' ||
+    ' kelionių tikslą pasakoja „ Kelionių panoramos“ vadovė Kristina</p></blockquote>',
+    1, 12),
+  (NULL, 'Tyrimas atskleidė, kada lėktuvo bilietus įsigysite pigiausiai',
+         'Karolina Tuminauskaitė',
+         'Kultūra',
+         'bilietas-01.jpg',
+         'Kultūra',
+         'CheapAir.com pranešė kasmetinio lėktuvų bilietų tyrimo rezultatus,kuriuose pateikia atsakymą į visiems dažnai' ||
+         ' kylantį klausimą – prieš kiek laiko turėčiau pirkti lėktuvo bilietus,kad gaučiau geriausią ir pigiausią' ||
+         ' skrydžio pasiūlymą?',
+         '',
+         '2018-04-07 21:18:18.0',
+         '<p>Tyrime buvo analizuojami duomenys iš 917 milijonų parduotų bilietų ir beveik 3 milijonų reisų Jungtinių' ||
+         ' Amerikos Valstijų viduje.Remiantis šiais duomenimis,geriausias laikas pirkti lėktuvo bilietus yra 70 dienų' ||
+         ' prieš išvykimą.Tai gana didelis padidėjimas,lyginant su praėjusių metų tyrimu,kuris atskleidė jog pigiausi' ||
+         ' bilietai buvo parduodami 54 dienos prieš išvykimą.</p>',
+         0, 1),
+  (NULL,
+    'Rytų išmintis skubančiam lietuviui:žmogus sukurtas būti tinginiu,o sportas yra stresas',
+    'moteris.lt',
+    'Sveikata',
+    'rytai - 01.jpg',
+    'Sveikata,Rytai',
+    'Vakarietis gydytojas Dalius Barkauskas ir korėjietis kuksando mokytojas Jin Mokas kalbasi apie sveikatą ir gyvenimą.',
+    '',
+    '2018-04-07 20:37:35.0',
+    '<p > Ar gali Rytų ir Vakarų medicina,gyvenimo būdas,požiūris į pasaulį atrasti sąlyčio taškų? Ar mums, nuolat' ||
+    ' skubantiems vakariečiams,gali tikti rytietiška ramybė? Į šiuos klausimus atsakymų ieško Algirdo Kumžos knygos' ||
+    ' „Kuksando.Kelio knyga“ (leidykla Alma littera“) herojai Lietuvos olimpinės rinktinės gydytojas,sporto medicinos' ||
+    ' specialistas Dalius Barkauskas ir korėjietis kuksando mokytojas Jin Mokas.Pateikiame šios knygos ištraukas.</p>',
+    1, 121),
+  (NULL,
+    'Lietuvoje veiklą pradeda prabangių kelionių klubas',
+    'Ponas Redaktorius',
+    'Kultūra',
+    'porshe-01.jpg',
+    'Kultūra',
+    'Jau šį pavasarį Lietuvoje veiklą pradeda išskirtinių kelionių klubas „Porsche Travel“,kuris leis ne tik iš naujo' ||
+    ' įvertinti Lietuvos grožį, bet ir geriau pajausti tikrą vairavimo malonumą,rašoma pranešime spaudai.',
+    '',
+    '2018-04-07 20:34:15.0',
+    '<h1>Aukščiausi poilsio standartai</h1><p>Kelionės ir atradimai – neatsiejama prekės ženklo dalis.Išskirtines' ||
+    ' kelionių automobiliu patirtis visame pasaulyje koncernas siūlo jau daugiau nei 20 metų,kasmet jų įvyksta per' ||
+    ' 100. „Kelionių projekto filosofija nuo pat pirmųjų starto dienų kviečia iš naujo atrasti keliones automobiliais,' ||
+    'pažinti ir patirti, mėgautis vaizdu už automobilio lango.Ir visai nesvarbu, kiek truks kelionė – kelias valandas,' ||
+    'dienas ar savaites“, – sako Vilniaus „Porsche“ centrovadovė RasaKlimavičiūtė.</p>',
+    1, 10),
+  (NULL,
+    '10 gražiausiųEuropos pilių, kurios atrodo kaip iš pasakų',
+    'Ne Delfi.lt',
+    'Kultūra',
+    'pilis - 01.jpg',
+    'Kultūra, Pilis',
+    'Ar kada nors svarstėte, kaip atrodytų gyvenimas realioje pasakoje? Daugiau nesvarstykite.Bent kartą gyvenime mes' ||
+    ' sukomės šokio sūkury, vilkėdamos blizgančią suknelę ir užsidėjusios tiarą, ar grūmėmės su ugnį spjaudančiu slibinu' ||
+    ' iš neįveikiamo bokšto.',
+    '',
+    '2018-04-07 17:27:20.0',
+    ' < p > Tačiau dabar, kai esame suaugę, vis dar galime šiek tiek pasvajoti – tai padaryti leidžia pasakiškos pilys, ' ||
+    'kurios tikrai egzistuoja, ypač Europoje, kur stūkso šimtai gerai išsilaikiusių pilių, apsuptų užburiančių peizažų.</p>',
+    1, 131),
+  (NULL,
+    'Nauja rankinių kolekcija – moderniai miesto moteriai',
+         'moteris.lt',
+    'Mada',
+    'mada-01.jpg',
+    'Mada',
+    'Dizainerės Erikos Paulauskės kolekcijos veidu jau antrą kartą tapo modelis Julija Steponavičiūtė.',
+    '',
+    '2018-04-07 17:19:01.0',
+    '<p>Naujausiuose dizainerės E.Paulauskės kuriamo prekių ženklo „erikahoc“ darbuose vyrauja laikui nepavaldus' ||
+    ' kokybiškas dizainas ir neperkrauta estetika.Dizainerei naujausia kolekcija – tai būdas perteikti ženklo vertybes,' ||
+    ' pasakoti jo istoriją bei eksperimentuoti, į kūrybą įpinant naujas detales.</p>',
+    1, 1202),
+  (NULL,
+    'Kodėl valdingos ir pasiturinčios motinos dažniau gimdo berniukus',
+    'moteris.lt',
+    'Sveikata',
+    'pregnant-01.jpg',
+    'Sveikata, Nieštumas, Stora',
+    'Pasirodo, kūdikio lytį gali lemti motinos charakteris ir šeimos materialinė padėtis.',
+    '',
+    '2018-04-07 16:29:06.0',
+    '<p>Būsimo kūdikio lytį apsprendžiančių atsitiktinumų yra išties daug, bet ir dėsningumų netrūksta.Skandalingos' ||
+    ' knygos „Raudonoji karalienė“ autorius Mattas Ridley žmonių populiacijos elgesį analizuoja remdamasis gyvūnų' ||
+    ' pasaulio elgsena ir atranda nemažai analogijų.</p><p > Pasak jo, vargu ar galima pavadinti atsitiktinumu tai,' ||
+    ' kad visi keturiasdešimt du Jungtinių Valstijų prezidentai turėjo devyniasdešimt sūnų ir tik šešiasdešimt vieną ' ||
+    'dukterį.Lyčių santykis 3:2 akivaizdžiai skiriasi nuo visos populiacijos.Prezidentai – ne išimtis.Karališkųjų šeimų ' ||
+    'atstovai, aristokratai ir net pasiturintys Amerikos naujakuriai – visi turėjo šiek tiek daugiau sūnų nei dukterų.</p>',
+    1, 3),
+  (NULL,
+    'Ar žinojote, kad senų vištų dedami kiaušiniai turi perpus mažiau cholesterolio',
+         'Žurnalas Moteris',
+         'Sveikata',
+         'kiausinis - 01.jpg',
+    'Kiaušinis, Sveikata',
+    'Vilniaus universiteto Medicinos fakulteto Visuomenės sveikatos katedros direktorius prof.Rimantas Stukas padeda ' ||
+    'atskleisti kiaušinių savybes – padeda ar kenkia mūsų organizmui.',
+    '',
+    '2018-04-07 16:08:17.0',
+    '<h1>Trynys ar baltymas?</h1><p>Sportininkai, ypač siekiantys rezultatų kūno rengybos srityje, valgo itin daug ' ||
+    'kiaušinių baltymų, o trynius išmeta.Taigi gali susidaryti įspūdis, kad baltymai vertingesni, tačiau iš tikrųjų ' ||
+    'jie tik padeda greičiau užsiauginti raumenis, nes kiaušinių baltymus organizmas pasisavina geriau nei iš mėsos,' ||
+    ' žuvų, pieno ar kt.Jei sportininkai valgytų visą kiaušinį, greitai pasisotintų ir nepajėgtų šių produktų suvartoti' ||
+    ' tiek daug</p><p>100 g trynio turi 57 mg riebalų, tad, jei žmogus suvalgytų daug kiaušinių, cholesterolio kiekis ' ||
+    'taptų neleistinai didelis.Dėl šios priežasties atsargiau mėgautis tryniais rekomenduojama ir žmonėms, turintiems ' ||
+    'problemų dėl cholesterolio.Kalbant apie maistinę vertę, trynys kur kas pranašesnis už baltymą, nes būtent jame yra' ||
+    ' kone visi kiaušinio vitaminai ir mineralai.Be to, alergija tryniams pasitaiko kur kas rečiau nei baltymams, ' ||
+    'tad saugiai valgyti juos gali daugiau žmonių.</p>',
+    1, 2),
+  (NULL,
+    'Mokslininkai nustatė:žarnyno mikroflora turi įtakos ne tik imunitetui, bet ir svoriui, ir depresijai',
+    'moteris.lt',
+    'Sveikata',
+    'mikroflora-01.jpg',
+    'Sveikata, Žarnynas',
+    'Pastaraisiais metais susidomėjimas žarnynu bei žarnyno mikroflora labai smarkiai išaugo.Nustatyta, kad maždaug ' ||
+    '80 procentų imuniteto glūdi žarnyne.',
+    '',
+    '2018-04-07 15:23:25.0',
+    '<p > Kad valgant džiaugtųsi ne tik liežuvis, bet ir visas kūnas, švedų žurnalistės Lina Nertby Aurell ir Mia Clase, ' ||
+    'konsultuojamos garsaus mitybos specialisto, profesoriaus Stigo Bengmarko, ir pasitelkusios nepamirštamą humoro' ||
+    ' jausmą parašė knygą „Food Pharmacy/ Maisto farmacija“ apie žarnyno mikroﬂorą, gerąsias bakterijas ir uždegimus ' ||
+    'slopinantį maistą.</p><p > Nors jau seniai žinoma, kad mūsų kūne gyvena trilijonai bakterijų, bet tik visai neseniai ' ||
+    'mokslininkai įžvelgė gausios ir sveikos žarnyno mikroﬂoros svarbą.Knyga, kuria susidomėjo daugybė žmonių įvairiose' ||
+    ' pasaulio šalyje dabar pasirodė ir lietuviškai (išleido Lietuvos rašytojų sąjungos leidykla).Kviečiame skaityti knygos ' ||
+    'ištrauką.</p><h1>GEROJI IR BLOGOJI ŽINIOS</h1><p>Prieš pradėdamas tyrinėti žarnyno florą profesorius Stigas Bengmarkas ' ||
+    'buvo gabus chirurgas, vienas vadinamosios ekstensyviosios abdominalinės chirurgijos pradininkų.Kalbame ne apie kokias' ||
+    ' nors nedideles ar nesudėtingas operacijas – jam dažnai tekdavo šalinti visą kasą ar net didžiąją kepenų dalį.Deja, ne ' ||
+    'visada pavykdavo taip, kaip Stigas norėjo.Tikriau pasakius – operacijos pasisekdavo, bet vėliau pacientams prasidėdavo ' ||
+    'sunkios infekcijos, kėlusios Stigui didžiulį nerimą.</p>',
+    1, 6),
+  (NULL,
+    'Stiliaus horoskopas:tinkamiausia naujojo sezono tendencija pagal Zodiako ženklą',
+    'www.moteris.lt',
+    'Mada',
+    'horoskopai - 776.jpg',
+    'Mada,Žmonės',
+    'Į horoskopus atsižvelgiame planuodamos svarbius gyvenimo žingsnius, dienos darbus ir netgi meilės reikalus, ' ||
+    'tad kodėl jais nepasikliauti ir stiliaus klausimais? Štai į kokias tendencijas vertėtų dėmesį atkreipti kiekvienam' ||
+    ' iš dvylikos Zodiako ženklų.',
+    '',
+    '2018-04-07 14:58:02.0',
+    '',
+    0, 4),
+  (NULL,
+    'Nauja pavasario „Esprit“ kolekcija JAM ir JAI',
+         'Žurnalas Moteris',
+         'Mada',
+    'espirit-01.jpg',
+    'Mada, Drabužiai',
+    'Šeimos rate patiriame daugybę smagių akimirkų.Žaisminga, spalvinga, šiuolaikiško stiliaus laisvalaikio apranga ' ||
+    'padeda kurti gerą nuotaiką ir ja dalytis.',
+    '',
+    '2018-04-07 13:59:21.0',
+    '<p>Tai gali paliudyti „Moters“ žurnalo ir prekių ženklo „Esprit“ organizuoto šeimos fotosesijos konkurso nugalėtojai' ||
+    ' – Kristinos, Agniaus bei mažosios Liepos šeimyna.</p><p>Stilingi naujos pavasario kolekcijos deriniai akimirksniu ' ||
+    'leido pasijusti tikrais modeliais, o energija, juokas ir smagios emocijos tiesiog liejosi per kraštus.Kristina ir ' ||
+    'Agnius pasidžiaugė tarpusavyje derančiais jų drabužių komplektais  – tokie kuria malonų bendrystės jausmą.</p>',
+    0, 2);

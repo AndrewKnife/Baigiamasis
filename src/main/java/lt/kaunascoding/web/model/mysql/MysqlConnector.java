@@ -6,6 +6,20 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class MysqlConnector {
+
+    public Connection Connect() {
+        Connection conn = null;
+        try {
+            // db parameters
+            String url = "jdbc:sqlite:D:\\Programs\\Projects\\springTest\\src\\main\\resources\\static\\webdata.db";
+            // create a connection to the database
+            conn = DriverManager.getConnection(url);
+
+        } catch (SQLException e) {
+        }
+        return conn;
+    }
+    /*
     public Connection Connect() {
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
@@ -31,4 +45,5 @@ public class MysqlConnector {
         }
         return connection;
     }
+    */
 }
